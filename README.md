@@ -1,30 +1,34 @@
-# Astro Starter Kit: Portfolio
+# About | Daniel Jowett
 
-```sh
-pnpm create astro@latest -- --template portfolio
-```
+This is the source code for the **About** page of Daniel Jowett — a frontend lead passionate about building fast, maintainable web apps.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/portfolio)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/portfolio)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/portfolio/devcontainer.json)
+## 🌐 Overview
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+The page is built using [Astro](https://astro.build/), with clean, semantic HTML and a modular layout. It includes personal background, professional experience, skills, and contact details.
 
-![portfolio](https://user-images.githubusercontent.com/357379/210779178-a98f0fb7-6b1a-4068-894c-8e1403e26654.jpg)
+## 🔧 Tech Stack
 
-## 🧞 Commands
+- **Framework:** Astro
+- **Styling:** CSS Modules
+- **Deployment:** AWS - S3 & Cloudfront
 
-All commands are run from the root of the project, from a terminal:
+## 📁 Structure
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `pnpm install`             | Installs dependencies                            |
-| `pnpm dev`             | Starts local dev server at `localhost:4321`      |
-| `pnpm build`           | Build your production site to `./dist/`          |
-| `pnpm preview`         | Preview your build locally, before deploying     |
-| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `pnpm astro -- --help` | Get help using the Astro CLI                     |
+- `BaseLayout`: Shared page layout with meta tags and SEO
+- `Hero`: Reusable hero component with a large image and intro
+- `ContactCTA`: Call-to-action component for reaching out
+- Content sections: Background, Experience, Education, Skills
 
-## 👀 Want to learn more?
+## ✍️ Author
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+**Daniel Jowett**  
+Frontend Lead @ Thumb Technologies  
+Building performant UIs and full-stack projects.
+
+## 📨 Contact
+
+Feel free to connect via [LinkedIn](https://www.linkedin.com/in/danieljowett/) or open an issue if you'd like to collaborate.
+
+---
+
+> This page was built to showcase my experience and frontend skills. Thanks for visiting!
