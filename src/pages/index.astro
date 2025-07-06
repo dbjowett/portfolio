@@ -40,7 +40,7 @@ const projects = (await getCollection('work'))
           alt="A photo of Daniel Jowett, a full-stack developer"
           width="300"
           height="300"
-          src="/assets/daniel-memoji-dark.jpeg"
+          src="/assets/daniel-memoji-no-bg.png"
         />
       </header>
 
@@ -92,11 +92,8 @@ const projects = (await getCollection('work'))
   }
 
   .hero img {
-    aspect-ratio: 5 / 4;
+    aspect-ratio: 1 / 1;
     object-fit: cover;
-    object-position: top;
-    border-radius: 1.5rem;
-    box-shadow: var(--shadow-md);
   }
 
   @media (min-width: 50em) {
@@ -111,12 +108,6 @@ const projects = (await getCollection('work'))
       margin-top: 0.5rem;
       display: flex;
       gap: 0.5rem;
-    }
-
-    .hero img {
-      aspect-ratio: 1 / 1;
-      border-radius: 4.5rem;
-      object-fit: cover;
     }
   }
 

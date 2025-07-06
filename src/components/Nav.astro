@@ -13,7 +13,6 @@ const textLinks: { label: string; href: string }[] = [
 /** Icon links to social media — edit these with links to your profiles! */
 const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[] = [
   { label: 'GitHub', href: 'http://www.github.com/dbjowett', icon: 'github-logo' },
-
   { label: 'LinkedIn', href: 'http://www.linkedin.com/in/danieljowett', icon: 'linkedin-logo' },
 ];
 
@@ -73,7 +72,12 @@ const isCurrentPage = (href: string) => {
       {
         textLinks.map(({ label, href }) => (
           <li>
-            <a aria-current={isCurrentPage(href) ? 'page' : null} class="link" href={href}>
+            <a
+              aria-current={isCurrentPage(href) ? 'page' : null}
+              class="link"
+              href={href}
+              rel="prefetch"
+            >
               {label}
             </a>
           </li>
