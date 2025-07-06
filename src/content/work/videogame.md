@@ -37,3 +37,10 @@ Authentication is handled via JWT, with support for both Google login and tradit
 - Discover popular games (via IGDB API)
 - Share and compare game lists with friends
 - Cross-platform support: Web + Mobile
+
+🔗 **Links**
+
+- [Github](https://github.com/dbjowett/Video-Game-Mobile-App-and-Backend/)
+- 👉 [Watch the demo](https://youtube.com/shorts/w1wKx3EDtfI)
+
+[![Preview](https://img.youtube.com/vi/w1wKx3EDtfI/hqdefault.jpg)](https://youtube.com/shorts/w1wKx3EDtfI)

@@ -35,3 +35,8 @@ Once a recording is complete, the app generates a transcript and then a summary 
 - Generate transcripts from audio (experimental)
 - Summarize transcripts using Hugging Face Transformers (unstable, no API calls)
 - Fully private: no server, no network requests, all data stays on-device
+
+🔗 **Links**
+
+- [Github](https://github.com/dbjowett/audio_recorder)
+- [Live](audio-recorder-eta.vercel.app)

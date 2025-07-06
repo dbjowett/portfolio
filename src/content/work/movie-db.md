@@ -34,3 +34,8 @@ The app connects to **The Movie Database (TMDb) API** to fetch real-time movie d
 - Fast-loading pages with smooth transitions
 - Fully mobile responsive
 - Built with performance and SEO in mind
+
+🔗 **Links**
+
+- [Github](https://github.com/dbjowett/Nextjs_Movies)
+- [Live](nextjs-movies-theta.vercel.app)

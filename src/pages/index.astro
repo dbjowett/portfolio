@@ -28,16 +28,19 @@ const projects = (await getCollection('work'))
           align="start"
         >
           <div class="roles">
-            <Pill><Icon icon="code" size="1.33em" /> Fullstack Developer</Pill>
+            <Pill><Icon icon="laptop" size="1.33em" /> Frontend</Pill>
+            <Pill><Icon icon="code" size="1.33em" /> Backend</Pill>
+            <Pill><Icon icon="phone" size="1.33em" /> Mobile</Pill>
+
             <Pill><Icon icon="rocket-launch" size="1.33em" /> CI/CD</Pill>
           </div>
         </Hero>
 
         <img
           alt="A photo of Daniel Jowett, a full-stack developer"
-          width="480"
-          height="620"
-          src="/assets/daniel.jpg"
+          width="300"
+          height="300"
+          src="/assets/daniel-memoji-dark.jpeg"
         />
       </header>
 
@@ -48,7 +51,7 @@ const projects = (await getCollection('work'))
       <section class="section with-background with-cta">
         <header class="section-header stack gap-2 lg:gap-4">
           <h3>Selected Work</h3>
-          <p>Take a look below at some of my featured work for clients from the past few years.</p>
+          <p>Take a look below at some of my featured work from the past few years.</p>
         </header>
 
         <div class="gallery">
@@ -111,7 +114,7 @@ const projects = (await getCollection('work'))
     }
 
     .hero img {
-      aspect-ratio: 3 / 4;
+      aspect-ratio: 1 / 1;
       border-radius: 4.5rem;
       object-fit: cover;
     }
