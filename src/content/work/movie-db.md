@@ -38,4 +38,4 @@ The app connects to **The Movie Database (TMDb) API** to fetch real-time movie d
 🔗 **Links**
 
 - [Github](https://github.com/dbjowett/Nextjs_Movies)
-- [Live](nextjs-movies-theta.vercel.app)
+- [Live](https://nextjs-movies-theta.vercel.app)
