@@ -3,6 +3,7 @@ title: GameTracker
 publishDate: 2025-07-06 00:00:00
 img: /assets/video-game.jpeg
 img_alt: Screenshot of the GameTracker app showing popular games and user collections
+img_link: https://github.com/dbjowett/Video-Game-Mobile-App-and-Backend/
 description: |
   A full-stack video game tracking app where users can keep track of games
   they've played, want to play, and discover new titles based on popularity
@@ -22,6 +23,12 @@ Built using modern web and mobile technologies, the project includes both a resp
 
 Authentication is handled via JWT, with support for both Google login and traditional email/password. GameTracker makes it easy for friends to connect, compare libraries, and explore new games together.
 
+🔗 **Links**
+
+- [Github](https://github.com/dbjowett/Video-Game-Mobile-App-and-Backend/)
+- 👉 [Watch the demo](https://youtube.com/shorts/w1wKx3EDtfI)
+- [Old Version](https://video-game-eight.vercel.app/)
+
 🧱 **Tech Stack**
 
 - **Frontend (Web):** React + Vite
@@ -37,10 +44,5 @@ Authentication is handled via JWT, with support for both Google login and tradit
 - View released games on a per-day basis in Calendar view
 - Discover popular games (via IGDB API)
 - Cross-platform support: Web + Mobile
-
-🔗 **Links**
-
-- [Github](https://github.com/dbjowett/Video-Game-Mobile-App-and-Backend/)
-- 👉 [Watch the demo](https://youtube.com/shorts/w1wKx3EDtfI)
 
 [![Preview](https://img.youtube.com/vi/w1wKx3EDtfI/hqdefault.jpg)](https://youtube.com/shorts/w1wKx3EDtfI)

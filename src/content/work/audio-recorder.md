@@ -3,6 +3,7 @@ title: Audio Recorder
 publishDate: 2025-07-06 00:00:00
 img: /assets/audio-recorder.png
 img_alt: Screenshot of a browser-based audio recorder interface with transcript and summary
+img_link: https://audio-recorder-eta.vercel.app
 description: |
   A Next.js audio recorder that runs entirely in the browser. It captures
   microphone input, transcribes the speech, and attempts to summarize it—
@@ -21,6 +22,11 @@ Once a recording is complete, the app generates a transcript and then a summary 
 
 ⚠️ **Note:** The transcription and summarization functionalities are **experimental and unstable**. Processing is fully local and may be slow or fail, depending on the device's resources.
 
+🔗 **Links**
+
+- [Github](https://github.com/dbjowett/audio_recorder)
+- [Live](https://audio-recorder-eta.vercel.app)
+
 🧱 **Tech Stack**
 
 - **Framework:** Next.js
@@ -35,8 +41,3 @@ Once a recording is complete, the app generates a transcript and then a summary 
 - Generate transcripts from audio (experimental)
 - Summarize transcripts using Hugging Face Transformers (unstable, no API calls)
 - Fully private: no server, no network requests, all data stays on-device
-
-🔗 **Links**
-
-- [Github](https://github.com/dbjowett/audio_recorder)
-- [Live](https://audio-recorder-eta.vercel.app)
